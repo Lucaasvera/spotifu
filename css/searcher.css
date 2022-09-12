@@ -1,0 +1,77 @@
+.searcher-Genres {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.3rem;
+}
+.searcher-title {
+  font: var(--headline2);
+  color: var(--white);
+  margin: 0;
+  margin-block-end: 1.5rem;
+}
+.searcherGenre {
+  inline-size: 12rem;
+  block-size: 12rem;
+  cursor: pointer;
+  display: flex;
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+.searcherGenre-title {
+  padding: 1rem;
+  margin: 0;
+  font: var(--headline2);
+  color: var(--white);
+}
+.searcherGenre-cover {
+  inline-size: 12rem;
+  block-size: 12rem;
+  position: relative;
+}
+
+.searcherGenre-cover img {
+  inline-size: 7rem;
+  block-size: 7rem;
+  transform: rotate(25deg) translate(18%, -2%);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.searcherGenrePodcast {
+  background: #27856a;
+}
+.searcherGenreCreadoparati {
+  background: #1e3264;
+}
+.searcherGenreListas {
+  background: #8d67ab;
+}
+.searcherGenreNuevos {
+  background: #e8115b;
+}
+
+.searcherGenreDescubrir {
+  background: #8d67ab;
+}
+.searcherGenreEventos {
+  background: #1e3264;
+}
+.searcherGenreCumbia {
+  background: #f037a5;
+}
+.searcherGenreOrgullo {
+  background: #9cf0e1;
+}
+.searcherGenreRADAR {
+  background: #d7f27d;
+}
+.searcherGenreLatino {
+  background: #e1118b;
+}
+.searcherGenreRock {
+  background: #e61e32;
+}
+.searcherGenreEntrenamiento {
+  background: #777777;
+}
